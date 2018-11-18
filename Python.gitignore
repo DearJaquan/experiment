@@ -2,8 +2,8 @@
 .idea/
 
 # big-data text
-word2vec/home_depot_product_search_relevance/sample/*
-word2vec/zhwiki/corpus/*
+word2vec/home_depot_product_search_relevance/sample/
+word2vec/zhwiki/corpus/
 
 
 
