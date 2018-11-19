@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# process_wiki_data.py 用于解析XML，将XML的wiki数据转换为text格式
+# step1：process_wiki_data.py 用于解析XML，将XML的wiki数据转换为text格式
 
 import logging
 import sys
