@@ -27,9 +27,9 @@ with open(read_from_file, 'r', encoding='utf-8') as file:
             s.write(output)
         i = i + 1
         if (i % 10000 == 0):  # 以万为单位输出INFO信息
-            logger.info("Saved " + str(i) + "articles")
+            logger.info("Saved " + str(i) + " articles")
     file.close()
-    logger.info("Finished Saved " + str(i) + "articles")
+    logger.info("Finished Saved " + str(i) + " articles")
 
 #   读取单行文本
 with open(write_to_file, 'r', encoding='utf-8') as ff:
