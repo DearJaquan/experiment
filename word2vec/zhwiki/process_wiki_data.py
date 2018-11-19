@@ -31,7 +31,7 @@ if __name__=='__main__':
         output.write(space.join(text) + "\n")
         i = i + 1
         if (i % 10000 == 0):    #以万为单位输出INFO信息
-            logger.info("Saved " + str(i) + "articles")
+            logger.info("Saved " + str(i) + " articles")
 
     output.close()
-    logger.info("Finished Saved " + str(i) + "articles")
+    logger.info("Finished Saved " + str(i) + " articles")
