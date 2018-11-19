@@ -4,6 +4,8 @@
 import logging
 import sys
 import os.path
+import warnings
+warnings.filterwarnings(action='ignore', category=UserWarning, module='gensim')
 
 from gensim.corpora import WikiCorpus
 
@@ -19,16 +21,16 @@ if __name__=='__main__':
     if len(sys.argv) < 3:
         print(globals()['__doc__'] % locals())
         sys.exit(1)
-    inp, outp = sys.argv[1:3]
+    inp, outp = sys.argv[1:3]   #argv[0]默认是系统参数，自定义参数从argv[1]开始
     space = ""
     i = 0
 
-    output = open(outp, 'w')
+    output = open(outp, 'w', encoding='utf-8')
     wiki = WikiCorpus(inp, lemmatize=False, dictionary={})
     for text in wiki.get_texts():
         output.write(space.join(text) + "\n")
         i = i + 1
-        if (i % 10000 == 0):
+        if (i % 10000 == 0):    #以万为单位输出INFO信息
             logger.info("Saved " + str(i) + "articles")
 
     output.close()
