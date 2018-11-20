@@ -1,5 +1,7 @@
 # Experiment<br>
 2018-11-18  重现kaggle竞赛中的自然语言处理的过程。因GitHub平台对上传文件大小的限制，所用到的数据集暂不上传，有需要者请email：jaquanC@126.com<br>
+文件目录结构说明：主题/活动目录。例如：word2vec主题下各个子文件夹相互之间独立，工作互不影响。<br>
+
 * Git教程  <br>
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000<br>
 * Git官方指南中文翻译版  <br>
