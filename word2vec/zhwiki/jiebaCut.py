@@ -34,6 +34,6 @@ with open(read_from_file, 'r', encoding='utf-8') as file:
 #   读取单行文本
 with open(write_to_file, 'r', encoding='utf-8') as ff:
     lines = ff.readlines()  #读取所有行
-    print('分词文件' + write_to_file + '第一行为：' + lines[0])
-    print('反词文件' + write_to_file + '最后一行为：' + lines[-1])
+    print('分词文件' + write_to_file + '第一行为：\n' + lines[0])
+    print('分词文件' + write_to_file + '最后一行为：\n' + lines[-1])
     ff.close()
