@@ -1,5 +1,7 @@
 # Intellij IDEA 配置文件
 .idea/
+*.pdf
+
 
 # big-data text
 word2vec/home_depot_product_search_relevance/sample/
