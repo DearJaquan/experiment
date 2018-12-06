@@ -8,6 +8,7 @@ word2vec/home_depot_product_search_relevance/sample/
 word2vec/zhwiki/corpus/
 word2vec/zhwiki/word2vec_model/
 mypack/
+pytorch-pcnn/paper
 
 
 # Jupyter Notebook
